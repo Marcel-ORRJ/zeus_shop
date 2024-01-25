@@ -1,0 +1,159 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BOTÃO HOME */
+#home {
+    height: 50px;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+}
+
+/* CABEÇALHO */
+header {
+    padding: 16px 0;
+    background-color: #111;
+    color: #ffffff;
+}
+
+header nav li {
+    display: block;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* SEÇÕES */
+section .container {
+    align-items: flex-start;
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-size: 42px;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-size: 26px;
+}
+
+/* SOBRE */
+
+#about {
+    background-color: #ffffff;
+}
+
+#about img {
+    margin-right: 32px;
+    height: 460px;
+}
+
+/* PRODUTOS */
+#products {
+    background-color: #eaebee;
+}
+
+#products img {
+    margin-left: 32px;
+    height: 460px;
+}
+
+/* CONTATO */
+#contact {
+    background-color: #ffffff;
+}
+
+#contact img {
+    margin-right: 32px;
+    height: 460px;
+}
+
+#contact .container .contact-methods {
+    display: block;
+}
+
+#contact .container h2, #contact .container h3 {
+    margin-bottom: 16px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 680px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #111111;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3d3d3d;
+}
+
+input:focus, textarea:focus {
+    outline-color: #111111;
+}
+
+/* RODAPÉ */
+footer {
+    padding: 16px 0;
+    background-color: #111111;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container p {
+    justify-content: space-between;
+}
+
+footer img {
+    height: 24px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
